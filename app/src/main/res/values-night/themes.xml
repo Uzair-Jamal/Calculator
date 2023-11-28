@@ -2,6 +2,28 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="operatorButton" parent = "commonButton">
+
+        <item name="android:textColor">@color/btnBackground2</item>
+
+
+    </style>
+
+    <style name="digitButton" parent="commonButton">
+
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="commonButton" parent = "Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">12dp</item>
     </style>
 </resources>

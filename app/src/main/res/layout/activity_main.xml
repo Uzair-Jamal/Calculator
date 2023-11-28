@@ -68,6 +68,7 @@
                 android:id="@+id/btn_back"
                 style="@style/digitButton"
                 android:onClick="onBackClick"
+                android:gravity="center"
                 android:text="1"
                 app:icon="@drawable/delete"
                 app:iconTint="@color/btnBackground2"
@@ -75,6 +76,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_modulo"
                 style="@style/operatorButton"
+                android:onClick="onOperatorClick"
                 android:text="%"
                 />
             <com.google.android.material.button.MaterialButton
@@ -195,7 +197,7 @@
                 android:id="@+id/btn_allClear"
                 android:text="AC"
                 android:onClick="onAllClearClick"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
 
                 />
